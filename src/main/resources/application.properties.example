@@ -1,0 +1,18 @@
+# application.properties.example
+
+# Application name
+spring.application.name=security
+
+# PostgreSQL configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_db_name
+spring.datasource.username=YOUR_USERNAME
+spring.datasource.password=YOUR_PASSWORD
+
+# Hibernate schema update strategy (create, update, validate, none)
+spring.jpa.hibernate.ddl-auto=update
+
+# Hibernate dialect (optional)
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+# Show SQL statements in console (optional)
+spring.jpa.show-sql=true
